@@ -1,5 +1,5 @@
-This is a project created to demonstrate development skills.
+This is a project created to showcase development skills.
 
 ### Technology Used
 
-React, Next.js, TypeScript, MUI, TailwindCSS.
+React, Next.js, TypeScript, Material UI, TailwindCSS, Firebase.

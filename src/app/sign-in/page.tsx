@@ -15,6 +15,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, MouseEvent } from "react";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
+import OAuth from "@/components/OAuth";
 
 export default function signIn() {
   const [showPassword, setShowPassword] = useState(false);
@@ -115,8 +116,9 @@ export default function signIn() {
             </Button>
           </div>
           <div>OR</div>
-
-          <div>Continue with Google</div>
+          <div>
+            <OAuth />
+          </div>
         </Stack>
       </div>
     </>
